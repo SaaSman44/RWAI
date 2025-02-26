@@ -2279,3 +2279,709 @@
                     <div class="form__success">Thank you! Your message has been sent successfully.</div>
                 </form>
             </div>
+
+</div>
+</div>
+</section>
+
+<!-- Add the footer HTML from the code above here -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+            <div>
+                <a href="#" class="footer__logo">
+                    <div class="logo__icon">S</div>
+                    <span>SaaSify</span>
+                </a>
+                <p class="footer__about">SaaSify is the all-in-one platform designed to help teams collaborate, manage projects, and scale operations with ease.</p>
+            </div>
+            <div>
+                <h3 class="footer__column-title">Company</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">About Us</a></li>
+                    <li><a href="#" class="footer__link">Careers</a></li>
+                    <li><a href="#" class="footer__link">Blog</a></li>
+                    <li><a href="#" class="footer__link">Press</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__column-title">Product</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Features</a></li>
+                    <li><a href="#" class="footer__link">Pricing</a></li>
+                    <li><a href="#" class="footer__link">Security</a></li>
+                    <li><a href="#" class="footer__link">Enterprise</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__column-title">Resources</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Documentation</a></li>
+                    <li><a href="#" class="footer__link">Guides</a></li>
+                    <li><a href="#" class="footer__link">Help Center</a></li>
+                    <li><a href="#" class="footer__link">API Reference</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer__column-title">Subscribe</h3>
+                <p class="footer__newsletter-desc">Get the latest news and updates from SaaSify.</p>
+                <form class="footer__form">
+                    <input type="email" class="footer__input" placeholder="Your email" required>
+                    <button type="submit" class="footer__button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2025 SaaSify. All rights reserved.</p>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button class="back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+</button>
+
+<!-- JavaScript -->
+<script>
+    // Wait for DOM content to be loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Set body to loaded state
+        setTimeout(function() {
+            document.body.classList.add('loaded');
+            document.querySelector('.preloader').classList.add('hidden');
+        }, 1000);
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            const backToTop = document.querySelector('.back-to-top');
+            
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            // Back to Top button visibility
+            if (window.scrollY > 500) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileToggle = document.querySelector('.mobile-toggle');
+        const navList = document.querySelector('.nav__list');
+        
+        if (mobileToggle) {
+            mobileToggle.addEventListener('click', function() {
+                mobileToggle.classList.toggle('active');
+                navList.classList.toggle('active');
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        const navLinks = document.querySelectorAll('.nav__link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetPosition = document.querySelector(targetId).offsetTop - 80;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                if (navList.classList.contains('active')) {
+                    mobileToggle.classList.remove('active');
+                    navList.classList.remove('active');
+                }
+                
+                // Update active nav link
+                navLinks.forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Initialize section animations with Intersection Observer
+        const animatedElements = [
+            ...document.querySelectorAll('.section-header'),
+            ...document.querySelectorAll('.feature-card'),
+            ...document.querySelectorAll('.pricing__plan'),
+            ...document.querySelectorAll('.contact__content'),
+            ...document.querySelectorAll('.contact__form-wrapper')
+        ];
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        });
+        
+        animatedElements.forEach(element => {
+            observer.observe(element);
+        });
+
+        // Pricing toggle
+        const pricingSwitch = document.getElementById('pricingSwitch');
+        const pricingPlans = document.querySelector('.pricing__grid');
+        
+        if (pricingSwitch) {
+            pricingSwitch.addEventListener('change', function() {
+                const monthlyLabel = document.querySelector('[data-period="monthly"]');
+                const yearlyLabel = document.querySelector('[data-period="yearly"]');
+                
+                if (pricingSwitch.checked) {
+                    pricingPlans.classList.add('yearly-active');
+                    monthlyLabel.classList.remove('active');
+                    yearlyLabel.classList.add('active');
+                } else {
+                    pricingPlans.classList.remove('yearly-active');
+                    monthlyLabel.classList.add('active');
+                    yearlyLabel.classList.remove('active');
+                }
+            });
+        }
+
+        // Testimonial slider
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial');
+        const testimonialTrack = document.querySelector('.testimonials__track');
+        const testimonialPrev = document.querySelector('.testimonials__button--prev');
+        const testimonialNext = document.querySelector('.testimonials__button--next');
+        const testimonialDots = document.querySelectorAll('.testimonials__dot');
+        
+        function showTestimonial(index) {
+            const totalTestimonials = testimonials.length;
+            
+            // Check if index is within bounds
+            if (index < 0) {
+                index = totalTestimonials - 1;
+            } else if (index >= totalTestimonials) {
+                index = 0;
+            }
+            
+            // Update current index
+            currentTestimonial = index;
+            
+            // Update testimonial track position
+            testimonialTrack.style.transform = `translateX(-${currentTestimonial * 100}%)`;
+            
+            // Update active class on testimonials
+            testimonials.forEach((testimonial, i) => {
+                if (i === currentTestimonial) {
+                    testimonial.classList.add('active');
+                } else {
+                    testimonial.classList.remove('active');
+                }
+            });
+            
+            // Update dots
+            testimonialDots.forEach((dot, i) => {
+                if (i === currentTestimonial) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+        }
+        
+        if (testimonialPrev && testimonialNext) {
+            testimonialPrev.addEventListener('click', () => {
+                showTestimonial(currentTestimonial - 1);
+            });
+            
+            testimonialNext.addEventListener('click', () => {
+                showTestimonial(currentTestimonial + 1);
+            });
+            
+            testimonialDots.forEach((dot, i) => {
+                dot.addEventListener('click', () => {
+                    showTestimonial(i);
+                });
+            });
+            
+            // Auto-rotate testimonials
+            setInterval(() => {
+                if (!document.hidden) {
+                    showTestimonial(currentTestimonial + 1);
+                }
+            }, 5000);
+        }
+
+        // Contact form validation
+        const contactForm = document.getElementById('contactForm');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                let isValid = true;
+                const nameInput = document.getElementById('name');
+                const emailInput = document.getElementById('email');
+                const messageInput = document.getElementById('message');
+                
+                // Clear previous errors
+                document.querySelectorAll('.form__input').forEach(input => {
+                    input.classList.remove('error');
+                });
+                document.querySelectorAll('.form__error').forEach(error => {
+                    error.classList.remove('show');
+                });
+                
+                // Validate name
+                if (nameInput && nameInput.value.trim() === '') {
+                    nameInput.classList.add('error');
+                    nameInput.nextElementSibling.nextElementSibling.classList.add('show');
+                    isValid = false;
+                }
+                
+                // Validate email
+                if (emailInput) {
+                    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (emailInput.value.trim() === '' || !emailPattern.test(emailInput.value)) {
+                        emailInput.classList.add('error');
+                        emailInput.nextElementSibling.nextElementSibling.classList.add('show');
+                        isValid = false;
+                    }
+                }
+                
+                // Validate message
+                if (messageInput && messageInput.value.trim() === '') {
+                    messageInput.classList.add('error');
+                    messageInput.nextElementSibling.nextElementSibling.classList.add('show');
+                    isValid = false;
+                }
+                
+                // If form is valid, show success message
+                if (isValid) {
+                    // Simulate form submission
+                    const formButton = contactForm.querySelector('.form__button');
+                    formButton.disabled = true;
+                    formButton.innerHTML = '<span class="form__button-text">Sending...</span>';
+                    
+                    setTimeout(() => {
+                        formButton.disabled = false;
+                        formButton.innerHTML = '<span class="form__button-text">Send Message <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></span>';
+                        
+                        // Reset form
+                        contactForm.reset();
+                        
+                        // Show success message
+                        document.querySelector('.form__success').classList.add('show');
+                        
+                        // Hide success message after 5 seconds
+                        setTimeout(() => {
+                            document.querySelector('.form__success').classList.remove('show');
+                        }, 5000);
+                    }, 1500);
+                }
+            });
+        }
+
+        // Back to top button
+        const backToTop = document.querySelector('.back-to-top');
+        if (backToTop) {
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        // Custom cursor
+        const cursor = document.querySelector('.cursor');
+        const cursorTrail = document.querySelector('.cursor-trail');
+        
+        if (cursor && window.matchMedia('(pointer: fine)').matches) {
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+                
+                setTimeout(() => {
+                    if (cursorTrail) {
+                        cursorTrail.style.left = e.clientX + 'px';
+                        cursorTrail.style.top = e.clientY + 'px';
+                    }
+                }, 50);
+            });
+            
+            // Change cursor state when hovering over buttons or links
+            document.querySelectorAll('a, button, .btn').forEach(el => {
+                el.addEventListener('mouseenter', () => {
+                    cursor.classList.add('button');
+                });
+                el.addEventListener('mouseleave', () => {
+                    cursor.classList.remove('button');
+                });
+            });
+            
+            // Change cursor state when active
+            document.addEventListener('mousedown', () => {
+                cursor.classList.add('active');
+            });
+            document.addEventListener('mouseup', () => {
+                cursor.classList.remove('active');
+            });
+        }
+
+        // Add pulse effect to CTA button
+        const ctaButton = document.querySelector('.btn--cta');
+        if (ctaButton) {
+            ctaButton.classList.add('pulse');
+        }
+    });
+</script>
+
+<!-- Back to Top Button -->
+<button class="back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+</button>
+
+<script>
+// Insert this script at the end of your HTML file, just before the closing </body> tag
+
+// Wait for DOM content to be loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Set body to loaded state
+    setTimeout(function() {
+        document.body.classList.add('loaded');
+        document.querySelector('.preloader').classList.add('hidden');
+    }, 1000);
+
+    // Header scroll effect
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header');
+        const backToTop = document.querySelector('.back-to-top');
+        
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+
+        // Back to Top button visibility
+        if (window.scrollY > 500) {
+            backToTop.classList.add('show');
+        } else {
+            backToTop.classList.remove('show');
+        }
+    });
+
+    // Mobile menu toggle
+    const mobileToggle = document.querySelector('.mobile-toggle');
+    const navList = document.querySelector('.nav__list');
+    
+    if (mobileToggle) {
+        mobileToggle.addEventListener('click', function() {
+            mobileToggle.classList.toggle('active');
+            navList.classList.toggle('active');
+        });
+    }
+
+    // Smooth scrolling for navigation links
+    const navLinks = document.querySelectorAll('.nav__link');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetPosition = document.querySelector(targetId).offsetTop - 80;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+            
+            // Close mobile menu if open
+            if (navList.classList.contains('active')) {
+                mobileToggle.classList.remove('active');
+                navList.classList.remove('active');
+            }
+            
+            // Update active nav link
+            navLinks.forEach(link => link.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+    // Initialize section animations with Intersection Observer
+    const animatedElements = [
+        ...document.querySelectorAll('.section-header'),
+        ...document.querySelectorAll('.feature-card'),
+        ...document.querySelectorAll('.pricing__plan'),
+        ...document.querySelectorAll('.contact__content'),
+        ...document.querySelectorAll('.contact__form-wrapper')
+    ];
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+    });
+    
+    animatedElements.forEach(element => {
+        observer.observe(element);
+    });
+
+    // Pricing toggle
+    const pricingSwitch = document.getElementById('pricingSwitch');
+    const pricingPlans = document.querySelector('.pricing__grid');
+    
+    if (pricingSwitch) {
+        pricingSwitch.addEventListener('change', function() {
+            const monthlyLabel = document.querySelector('[data-period="monthly"]');
+            const yearlyLabel = document.querySelector('[data-period="yearly"]');
+            
+            if (pricingSwitch.checked) {
+                pricingPlans.classList.add('yearly-active');
+                monthlyLabel.classList.remove('active');
+                yearlyLabel.classList.add('active');
+            } else {
+                pricingPlans.classList.remove('yearly-active');
+                monthlyLabel.classList.add('active');
+                yearlyLabel.classList.remove('active');
+            }
+        });
+    }
+
+    // Testimonial slider
+    let currentTestimonial = 0;
+    const testimonials = document.querySelectorAll('.testimonial');
+    const testimonialTrack = document.querySelector('.testimonials__track');
+    const testimonialPrev = document.querySelector('.testimonials__button--prev');
+    const testimonialNext = document.querySelector('.testimonials__button--next');
+    const testimonialDots = document.querySelectorAll('.testimonials__dot');
+    
+    function showTestimonial(index) {
+        const totalTestimonials = testimonials.length;
+        
+        // Check if index is within bounds
+        if (index < 0) {
+            index = totalTestimonials - 1;
+        } else if (index >= totalTestimonials) {
+            index = 0;
+        }
+        
+        // Update current index
+        currentTestimonial = index;
+        
+        // Update testimonial track position
+        testimonialTrack.style.transform = `translateX(-${currentTestimonial * 100}%)`;
+        
+        // Update active class on testimonials
+        testimonials.forEach((testimonial, i) => {
+            if (i === currentTestimonial) {
+                testimonial.classList.add('active');
+            } else {
+                testimonial.classList.remove('active');
+            }
+        });
+        
+        // Update dots
+        testimonialDots.forEach((dot, i) => {
+            if (i === currentTestimonial) {
+                dot.classList.add('active');
+            } else {
+                dot.classList.remove('active');
+            }
+        });
+    }
+    
+    if (testimonialPrev && testimonialNext) {
+        testimonialPrev.addEventListener('click', () => {
+            showTestimonial(currentTestimonial - 1);
+        });
+        
+        testimonialNext.addEventListener('click', () => {
+            showTestimonial(currentTestimonial + 1);
+        });
+        
+        testimonialDots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+                showTestimonial(i);
+            });
+        });
+        
+        // Auto-rotate testimonials
+        setInterval(() => {
+            if (!document.hidden) {
+                showTestimonial(currentTestimonial + 1);
+            }
+        }, 5000);
+    }
+
+    // Contact form validation
+    const contactForm = document.getElementById('contactForm');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            let isValid = true;
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+            
+            // Clear previous errors
+            document.querySelectorAll('.form__input').forEach(input => {
+                input.classList.remove('error');
+            });
+            document.querySelectorAll('.form__error').forEach(error => {
+                error.classList.remove('show');
+            });
+            
+            // Validate name
+            if (nameInput && nameInput.value.trim() === '') {
+                nameInput.classList.add('error');
+                nameInput.nextElementSibling.nextElementSibling.classList.add('show');
+                isValid = false;
+            }
+            
+            // Validate email
+            if (emailInput) {
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (emailInput.value.trim() === '' || !emailPattern.test(emailInput.value)) {
+                    emailInput.classList.add('error');
+                    emailInput.nextElementSibling.nextElementSibling.classList.add('show');
+                    isValid = false;
+                }
+            }
+            
+            // Validate message
+            if (messageInput && messageInput.value.trim() === '') {
+                messageInput.classList.add('error');
+                messageInput.nextElementSibling.nextElementSibling.classList.add('show');
+                isValid = false;
+            }
+            
+            // If form is valid, show success message
+            if (isValid) {
+                // Simulate form submission
+                const formButton = contactForm.querySelector('.form__button');
+                formButton.disabled = true;
+                formButton.innerHTML = '<span class="form__button-text">Sending...</span>';
+                
+                setTimeout(() => {
+                    formButton.disabled = false;
+                    formButton.innerHTML = '<span class="form__button-text">Send Message <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></span>';
+                    
+                    // Reset form
+                    contactForm.reset();
+                    
+                    // Show success message
+                    document.querySelector('.form__success').classList.add('show');
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        document.querySelector('.form__success').classList.remove('show');
+                    }, 5000);
+                }, 1500);
+            }
+        });
+    }
+
+    // Back to top button
+    const backToTop = document.querySelector('.back-to-top');
+    if (backToTop) {
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+    // Custom cursor
+    const cursor = document.querySelector('.cursor');
+    const cursorTrail = document.querySelector('.cursor-trail');
+    
+    if (cursor && window.matchMedia('(pointer: fine)').matches) {
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            
+            setTimeout(() => {
+                cursorTrail.style.left = e.clientX + 'px';
+                cursorTrail.style.top = e.clientY + 'px';
+            }, 50);
+        });
+        
+        // Change cursor state when hovering over buttons or links
+        document.querySelectorAll('a, button, .btn').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.classList.add('button');
+            });
+            el.addEventListener('mouseleave', () => {
+                cursor.classList.remove('button');
+            });
+        });
+        
+        // Change cursor state when active
+        document.addEventListener('mousedown', () => {
+            cursor.classList.add('active');
+        });
+        document.addEventListener('mouseup', () => {
+            cursor.classList.remove('active');
+        });
+    }
+
+    // Add pulse effect to CTA button
+    const ctaButton = document.querySelector('.btn--cta');
+    if (ctaButton) {
+        ctaButton.classList.add('pulse');
+    }
+});
+</script>
+</body>
+</html>

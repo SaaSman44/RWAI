@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SaaSify | Modern SaaS Platform</title>
+    <title>RankWriter AI | AI-Powered SEO Content Generator</title>
     <style>
         /* --------------------------
            GLOBAL STYLES & VARIABLES
@@ -1788,8 +1788,8 @@
     <header class="header">
         <div class="container header__container">
             <a href="#" class="logo">
-                <div class="logo__icon">S</div>
-                <span>SaaSify</span>
+                <div class="logo__icon">R</div>
+                <span>RankWriter AI</span>
             </a>
             <nav class="nav">
                 <ul class="nav__list">
@@ -1824,23 +1824,23 @@
         <div class="hero__bg"></div>
         <div class="container hero__container">
             <div class="hero__content">
-                <h1 class="hero__title">Streamline Your Workflow <span>With Our SaaS Platform</span></h1>
-                <p class="hero__subtitle">A powerful, all-in-one solution designed to help teams collaborate, manage projects, and scale operations with ease.</p>
+                <h1 class="hero__title">Generate SEO Blog Posts <span>in Seconds with AI</span></h1>
+                <p class="hero__subtitle">An advanced AI-powered platform that creates high-ranking, SEO-optimized content for your blog, saving you hours of research and writing time.</p>
                 <div class="hero__buttons">
                     <a href="#" class="btn btn--primary btn--lg btn--cta pulse">
-                        <span class="btn__text">Get Started for Free</span>
+                        <span class="btn__text">Start Creating Content Free</span>
                         <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
                         </svg>
                     </a>
                     <a href="#features" class="btn btn--secondary btn--lg">
-                        <span class="btn__text">Learn More</span>
+                        <span class="btn__text">See How It Works</span>
                     </a>
                 </div>
             </div>
             <div class="hero__image">
-                <img src="/api/placeholder/600/500" alt="SaaSify Dashboard" class="hero__img">
+                <img src="/api/placeholder/600/500" alt="RankWriter AI Dashboard Preview" class="hero__img">
                 <div class="hero__shape hero__shape--1"></div>
                 <div class="hero__shape hero__shape--2"></div>
             </div>
@@ -1852,62 +1852,60 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-header__sub">Our Features</span>
-                <h2 class="section-header__title">Powerful Tools for Your Business</h2>
-                <p class="section-header__desc">Our platform offers a comprehensive suite of features designed to help your team work smarter, not harder. Explore what makes SaaSify the perfect solution for businesses of all sizes.</p>
+                <h2 class="section-header__title">AI-Powered Content Creation</h2>
+                <p class="section-header__desc">Our platform leverages advanced AI to generate high-quality, SEO-optimized blog posts tailored to your audience and industry. Discover how RankWriter AI can transform your content strategy.</p>
             </div>
             <div class="features__grid">
                 <div class="feature-card">
                     <div class="feature-card__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                            <line x1="8" y1="21" x2="16" y2="21"></line>
-                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                            <path d="M2 2l7.586 7.586"></path>
+                            <circle cx="11" cy="11" r="2"></circle>
                         </svg>
                     </div>
-                    <h3 class="feature-card__title">Intuitive Dashboard</h3>
-                    <p class="feature-card__desc">Get a comprehensive view of your projects, tasks, and team activity in one centralized location with our user-friendly dashboard.</p>
+                    <h3 class="feature-card__title">Smart Content Generation</h3>
+                    <p class="feature-card__desc">Create ready-to-publish blog posts with a single click. Our AI generates engaging, original content optimized for your target keywords.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-card__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            <line x1="4" y1="21" x2="4" y2="14"></line>
+                            <line x1="4" y1="10" x2="4" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12" y2="3"></line>
+                            <line x1="20" y1="21" x2="20" y2="16"></line>
+                            <line x1="20" y1="12" x2="20" y2="3"></line>
+                            <line x1="1" y1="14" x2="7" y2="14"></line>
+                            <line x1="9" y1="8" x2="15" y2="8"></line>
+                            <line x1="17" y1="16" x2="23" y2="16"></line>
                         </svg>
                     </div>
-                    <h3 class="feature-card__title">Advanced Analytics</h3>
-                    <p class="feature-card__desc">Make data-driven decisions with our powerful analytics tools. Track progress, identify trends, and optimize your workflow.</p>
+                    <h3 class="feature-card__title">SEO Optimization Engine</h3>
+                    <p class="feature-card__desc">Every article is structured for maximum search visibility with proper keyword density, headings, and semantic relevance to boost your rankings.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-card__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="9" cy="7" r="4"></circle>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
                         </svg>
                     </div>
-                    <h3 class="feature-card__title">Team Collaboration</h3>
-                    <p class="feature-card__desc">Foster seamless collaboration with real-time communication tools, shared workspaces, and transparent project management.</p>
+                    <h3 class="feature-card__title">Content Customization</h3>
+                    <p class="feature-card__desc">Tailor content to match your brand voice, industry, and audience with adjustable tone, style, and complexity settings.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-card__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            <polyline points="17 1 21 5 17 9"></polyline>
+                            <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                            <polyline points="7 23 3 19 7 15"></polyline>
+                            <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
                         </svg>
                     </div>
-                    <h3 class="feature-card__title">Smart Automation</h3>
-                    <p class="feature-card__desc">Save time and reduce errors by automating routine tasks and workflows, allowing your team to focus on what matters most.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-card__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                            <polyline points="22,6 12,13 2,6"></polyline>
-                        </svg>
-                    </div>
-                    <h3 class="feature-card__title">Integrated Communication</h3>
-                    <p class="feature-card__desc">Stay connected with built-in messaging, comments, and notifications that keep your team aligned and informed.</p>
+                    <h3 class="feature-card__title">Bulk Content Creation</h3>
+                    <p class="feature-card__desc">Generate multiple articles simultaneously based on your content calendar or keyword research to scale your content marketing efficiently.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-card__icon">
@@ -1915,8 +1913,22 @@
                             <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
                         </svg>
                     </div>
-                    <h3 class="feature-card__title">Custom Integrations</h3>
-                    <p class="feature-card__desc">Connect with your favorite tools and services through our extensive API and pre-built integrations for a seamless workflow.</p>
+                    <h3 class="feature-card__title">Publishing Integration</h3>
+                    <p class="feature-card__desc">Seamlessly export content to WordPress, Medium, or other platforms, or download in multiple formats for easy integration with your workflow.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                            <line x1="18" y1="10" x2="18" y2="10"></line>
+                            <line x1="12" y1="4" x2="12" y2="4"></line>
+                            <line x1="6" y1="14" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card__title">Performance Analytics</h3>
+                    <p class="feature-card__desc">Track how your AI-generated content performs with built-in analytics for readability, SEO score, and engagement potential.</p>
                 </div>
             </div>
         </div>
@@ -1930,7 +1942,7 @@
             <div class="section-header">
                 <span class="section-header__sub">Pricing Plans</span>
                 <h2 class="section-header__title">Choose the Right Plan for Your Business</h2>
-                <p class="section-header__desc">We offer flexible pricing options to fit businesses of all sizes. Pay only for what you need, and scale as your business grows.</p>
+                <p class="section-header__desc">We offer flexible pricing options to fit businesses of all sizes. Pay only for what you need, and scale as your content strategy grows.</p>
             </div>
             <div class="pricing__switch">
                 <span class="pricing__switch-label active" data-period="monthly">Monthly</span>
@@ -1947,45 +1959,44 @@
                         <div class="pricing__price pricing__price-monthly">$29<span class="pricing__period">/month</span></div>
                         <div class="pricing__price pricing__price-yearly">$278<span class="pricing__period">/year</span></div>
                     </div>
-                    <p class="pricing__desc">Perfect for individuals and small teams getting started with project management.</p>
+                    <p class="pricing__desc">Perfect for bloggers and small businesses just getting started with content marketing.</p>
                     <ul class="pricing__features">
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Up to 5 team members</span>
+                            <span>10 blog posts per month</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>10 projects</span>
+                            <span>Basic SEO optimization</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>5GB storage</span>
+                            <span>Standard content templates</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Basic reporting</span>
+                            <span>Export to WordPress</span>
+                        </li>
+                        <li class="pricing__feature">
+                            <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Email support</span>
                         </li>
                         <li class="pricing__feature pricing__feature--inactive">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="18" y1="6" x2="6" y2="18"></line>
                                 <line x1="6" y1="6" x2="18" y2="18"></line>
                             </svg>
-                            <span>Advanced analytics</span>
-                        </li>
-                        <li class="pricing__feature pricing__feature--inactive">
-                            <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                <line x1="6" y1="6" x2="18" y2="18"></line>
-                            </svg>
-                            <span>API access</span>
+                            <span>Content performance tracking</span>
                         </li>
                     </ul>
                     <a href="#" class="btn btn--outline pricing__button">Choose Plan</a>
@@ -1993,47 +2004,46 @@
                 <div class="pricing__plan pricing__plan--popular">
                     <div class="pricing__header">
                         <h3 class="pricing__title">Professional</h3>
-                        <div class="pricing__price pricing__price-monthly">$79<span class="pricing__period">/month</span></div>
-                        <div class="pricing__price pricing__price-yearly">$758<span class="pricing__period">/year</span></div>
+                        <div class="pricing__price pricing__price-monthly">$99<span class="pricing__period">/month</span></div>
+                        <div class="pricing__price pricing__price-yearly">$950<span class="pricing__period">/year</span></div>
                     </div>
-                    <p class="pricing__desc">Ideal for growing teams that need more power and advanced features.</p>
+                    <p class="pricing__desc">Ideal for growing businesses that need consistent, high-quality content at scale.</p>
                     <ul class="pricing__features">
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Up to 20 team members</span>
+                            <span>50 blog posts per month</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Unlimited projects</span>
+                            <span>Advanced SEO optimization</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>50GB storage</span>
+                            <span>Custom content templates</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Advanced reporting</span>
+                            <span>All integrations</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Advanced analytics</span>
+                            <span>Priority support</span>
                         </li>
-                        <li class="pricing__feature pricing__feature--inactive">
+                        <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                                <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>API access</span>
+                            <span>Content performance tracking</span>
                         </li>
                     </ul>
                     <a href="#" class="btn btn--primary pricing__button">Choose Plan</a>
@@ -2044,43 +2054,43 @@
                         <div class="pricing__price pricing__price-monthly">$199<span class="pricing__period">/month</span></div>
                         <div class="pricing__price pricing__price-yearly">$1,910<span class="pricing__period">/year</span></div>
                     </div>
-                    <p class="pricing__desc">Advanced features for large teams with complex needs and premium support.</p>
+                    <p class="pricing__desc">Advanced features for large teams with complex content needs and premium support.</p>
                     <ul class="pricing__features">
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Unlimited team members</span>
+                            <span>Unlimited blog posts</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Unlimited projects</span>
+                            <span>Enterprise-grade SEO</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>500GB storage</span>
+                            <span>Custom AI training</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            <span>Advanced reporting</span>
-                        </li>
-                        <li class="pricing__feature">
-                            <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            <span>Advanced analytics</span>
+                            <span>Dedicated account manager</span>
                         </li>
                         <li class="pricing__feature">
                             <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                             <span>API access</span>
+                        </li>
+                        <li class="pricing__feature">
+                            <svg class="pricing__feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>White-label options</span>
                         </li>
                     </ul>
                     <a href="#" class="btn btn--outline pricing__button">Choose Plan</a>
@@ -2097,7 +2107,7 @@
             <div class="section-header">
                 <span class="section-header__sub">Testimonials</span>
                 <h2 class="section-header__title">What Our Customers Say</h2>
-                <p class="section-header__desc">Don't just take our word for it. Hear from some of our amazing customers who have transformed their businesses with SaaSify.</p>
+                <p class="section-header__desc">Don't just take our word for it. Hear from some of our amazing customers who have transformed their content strategy with RankWriter AI.</p>
             </div>
             <div class="testimonials__slider">
                 <div class="testimonials__track">
@@ -2110,14 +2120,14 @@
                                 </svg>
                             </div>
                             <div class="testimonial__content">
-                                <p class="testimonial__text">SaaSify has completely transformed how our team works together. The intuitive dashboard and real-time collaboration features have increased our productivity by over 40%. It's been a game-changer for our business.</p>
+                                <p class="testimonial__text">RankWriter AI has completely transformed our content strategy. We've increased our organic traffic by 73% in just three months by publishing AI-generated blog posts that actually rank. The time savings alone make it worth every penny.</p>
                                 <div class="testimonial__author">
                                     <div class="testimonial__avatar">
                                         <img src="/api/placeholder/60/60" alt="Sarah Johnson" class="testimonial__img">
                                     </div>
                                     <div class="testimonial__info">
                                         <h4 class="testimonial__name">Sarah Johnson</h4>
-                                        <p class="testimonial__role">Product Manager, TechCorp</p>
+                                        <p class="testimonial__role">Marketing Director, TechCorp</p>
                                     </div>
                                 </div>
                             </div>
@@ -2132,7 +2142,7 @@
                                 </svg>
                             </div>
                             <div class="testimonial__content">
-                                <p class="testimonial__text">As a small business owner, I was looking for an affordable solution that didn't compromise on features. SaaSify delivered exactly that. The automation features alone have saved us countless hours of manual work.</p>
+                                <p class="testimonial__text">As a small business owner, I couldn't afford a content team. RankWriter AI lets me publish professionally written, SEO-optimized content weekly without breaking the bank. My domain authority has increased from 22 to 38 in just six months.</p>
                                 <div class="testimonial__author">
                                     <div class="testimonial__avatar">
                                         <img src="/api/placeholder/60/60" alt="Michael Chen" class="testimonial__img">
@@ -2154,14 +2164,14 @@
                                 </svg>
                             </div>
                             <div class="testimonial__content">
-                                <p class="testimonial__text">The analytics capabilities in SaaSify have given us insights we never had before. We can now make data-driven decisions that have directly impacted our bottom line. The customer support team is also incredibly responsive.</p>
+                                <p class="testimonial__text">The quality of content from RankWriter AI is indistinguishable from our professionally written pieces. We've cut our content production costs by 65% while maintaining our position as thought leaders in our industry.</p>
                                 <div class="testimonial__author">
                                     <div class="testimonial__avatar">
                                         <img src="/api/placeholder/60/60" alt="Jessica Patel" class="testimonial__img">
                                     </div>
                                     <div class="testimonial__info">
                                         <h4 class="testimonial__name">Jessica Patel</h4>
-                                        <p class="testimonial__role">Director of Operations, MediaX</p>
+                                        <p class="testimonial__role">Content Manager, MediaX</p>
                                     </div>
                                 </div>
                             </div>
@@ -2193,8 +2203,8 @@
     <section id="contact" class="contact">
         <div class="container contact__container">
             <div class="contact__content">
-                <h2 class="contact__title">Get in Touch With Our Team</h2>
-                <p class="contact__desc">Have questions about SaaSify or need help getting started? Our team is here to help. Reach out to us using the contact form or through our support channels.</p>
+                <h2 class="contact__title">Ready to Transform Your Content Strategy?</h2>
+                <p class="contact__desc">Have questions about RankWriter AI or need help getting started? Our team of content and SEO experts is here to help you create content that ranks.</p>
                 <div class="contact__info">
                     <div class="contact__info-item">
                         <div class="contact__info-icon">
@@ -2203,7 +2213,7 @@
                                 <polyline points="22,6 12,13 2,6"></polyline>
                             </svg>
                         </div>
-                        <p class="contact__info-text">hello@saasify.com</p>
+                        <p class="contact__info-text">hello@rankwriter.ai</p>
                     </div>
                     <div class="contact__info-item">
                         <div class="contact__info-icon">
@@ -2217,7 +2227,7 @@
                         <div class="contact__info-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
+                               <circle cx="12" cy="10" r="3"></circle>
                             </svg>
                         </div>
                         <p class="contact__info-text">123 Innovation Street, San Francisco, CA 94103</p>
@@ -2293,9 +2303,9 @@
             <div>
                 <a href="#" class="footer__logo">
                     <div class="logo__icon">S</div>
-                    <span>SaaSify</span>
+                    <span>RankWriter AI</span>
                 </a>
-                <p class="footer__about">SaaSify is the all-in-one platform designed to help teams collaborate, manage projects, and scale operations with ease.</p>
+                <p class="footer__about">RankWriter AI is your all-in-one AI-powered content generation tool. Effortlessly create SEO-optimized blog posts, YouTube scripts, & product descriptions.</p>
             </div>
             <div>
                 <h3 class="footer__column-title">Company</h3>
